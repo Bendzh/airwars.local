@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>three.js - Jotunheimen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body { margin: 0; overflow: hidden; }
+    </style>
+</head>
+<body>
+<div id="webgl"></div>
+<script src="js/libs/three.min.js"></script>
+<script src="js/libs/FirstPersonControls.js"></script>
+<script src="js/libs/TerrainLoader.js"></script>
+<script>
+
+    var width  = window.innerWidth,
+            height = window.innerHeight;
+    var airPlane;
+    var rotateAngle = Math.PI / 2 * 0.006 ;
+
+    var scene = new THREE.Scene();
+    scene.add(new THREE.AmbientLight(0xeeeeee));
+
+    var axisHelper = new THREE.AxisHelper( 1000 );
+    scene.add( axisHelper );
+    var camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+    camera.position.set(0, 11, 0);
+    var camHel = new THREE.CameraHelper(camera);
+    scene.add(camHel);
+
+    //camera.rotateOnAxis((new THREE.Vector3(0, 1, 0)).normalize(),  15 * Math.PI / 180);
+
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setClearColor( 0xFFFFFF );
+    renderer.setSize(width, height);
+
+    var terrainLoader = new THREE.TerrainLoader();
+    terrainLoader.load('textures/terrain/jotunheimen.bin', function(data) {
+
+        var geometry = new THREE.PlaneGeometry(100, 100, 199, 199);
+
+        for (var i = 0, l = geometry.vertices.length; i < l; i++) {
+            geometry.vertices[i].z = data[i] / 65535 * 10;
+        }
+
+        geometry.applyMatrix(new THREE.Matrix4().makeRotationX(-Math.PI/2));
+        var material = new THREE.MeshPhongMaterial({
+            map: THREE.ImageUtils.loadTexture('textures/terrain/jotunheimen-texture.jpg')
+        });
+
+        var plane = new THREE.Mesh(geometry, material);
+        scene.add(plane);
+
+    });
+
+    var loader = new THREE.JSONLoader;
+    loader.load("js/model/kk1.js", function(geometry, material){
+        var mat = new THREE.MeshFaceMaterial(material);
+        var airPlane1 = new THREE.Mesh(geometry, mat);
+        airPlane = new THREE.Object3D();
+        airPlane1.position.set(0, 10, -7);
+        airPlane.add(airPlane1);
+        scene.add(airPlane);
+    });
+
+    document.addEventListener("keydown", onDocumentKeyDown, false);
+    /*var controls = new THREE.FirstPersonControls(camera);
+    controls.movementSpeed = 40;
+    controls.lookSpeed = 0.18;*/
+
+    document.getElementById('webgl').appendChild(renderer.domElement);
+
+    render();
+
+    function render() {
+        //controls.update(0.003);
+        if(airPlane){
+            airPlane.translateZ(-0.02);
+            var relMat = new THREE.Vector3(0, 11, -0.2);
+            var camOff = relMat.applyMatrix4(airPlane.matrixWorld);
+            camera.position.x = camOff.x;
+            camera.position.y = camOff.y;
+            camera.position.z = camOff.z;
+        }
+        requestAnimationFrame(render);
+        renderer.render(scene, camera);
+    }
+    function onDocumentKeyDown(ev){
+        //console.log(ev.which);
+        switch (ev.which){
+            case 87 :
+                airPlane.rotateOnAxis( new THREE.Vector3(1,0,0), rotateAngle);
+                camera.rotateOnAxis( new THREE.Vector3(1,0,0), rotateAngle);
+                var relMat = new THREE.Vector3(-0.5, 11, 0);
+                var camOff = relMat.applyMatrix4(airPlane.matrixWorld);
+                camera.position.x = camOff.x;
+                camera.position.y = camOff.y;
+                camera.position.z = camOff.z;
+                break;
+            case 83 :
+                airPlane.rotateOnAxis( new THREE.Vector3(1,0,0), -rotateAngle);
+                camera.rotateOnAxis( new THREE.Vector3(1,0,0), -rotateAngle);
+                var relMat = new THREE.Vector3(-0.5, 11, 0);
+                var camOff = relMat.applyMatrix4(airPlane.matrixWorld);
+                camera.position.x = camOff.x;
+                camera.position.y = camOff.y;
+                camera.position.z = camOff.z;
+                break;
+            case 65 :
+                airPlane.rotateOnAxis( new THREE.Vector3(0,1,0), rotateAngle);
+                camera.rotateOnAxis( new THREE.Vector3(0,1,0), rotateAngle);
+                var relMat = new THREE.Vector3(-0.5, 11, 0);
+                var camOff = relMat.applyMatrix4(airPlane.matrixWorld);
+                camera.position.x = camOff.x;
+                camera.position.y = camOff.y;
+                camera.position.z = camOff.z;
+                break;
+            case 68 :
+                airPlane.rotateOnAxis( new THREE.Vector3(0,1,0), -rotateAngle);
+                camera.rotateOnAxis( new THREE.Vector3(0,1,0), -rotateAngle);
+                var relMat = new THREE.Vector3(0.5, 11, 0);
+                var camOff = relMat.applyMatrix4(airPlane.matrixWorld);
+                camera.position.x = camOff.x;
+                camera.position.y = camOff.y;
+                camera.position.z = camOff.z;
+                break;
+        }
+    }
+
+</script>
+</body>
+</html>
