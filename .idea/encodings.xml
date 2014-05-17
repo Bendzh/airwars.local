@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/js/libs/KeyboardState.js" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/js/libs/THREEx.KeyboardState.js" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/js/libs/THREEx.KeyboardState.js" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/js/model/kk1.js" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/js/model/kkhknew_texture.png" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/js/model/kkk.blend" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/js/model/krula_texture.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/js/textures/terrain/7572-v2.jpg" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/js/textures/terrain/hm1.png" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/textures/terrain/7572-v2.jpg" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/textures/terrain/hm1.png" charset="windows-1251" />
     <file url="PROJECT" charset="UTF-8" />

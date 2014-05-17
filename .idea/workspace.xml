@@ -23,37 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="world.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/world.js">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="31" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="camera.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/camera.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="53" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terrain.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/terrain.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="0.05923345" vertical-offset="0" max-vertical-offset="1190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="airplane.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/airplane.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="12" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -62,25 +35,7 @@
       <file leaf-file-name="general.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/general.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="16.05.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16.05.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="568" selection-end="568" vertical-scroll-proportion="-9.153846" vertical-offset="17" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14.05.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14.05.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="64" selection-start="1957" selection-end="1957" vertical-scroll-proportion="-9.807693" vertical-offset="731" max-vertical-offset="2363">
+            <state line="49" column="56" selection-start="2118" selection-end="2118" vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -93,25 +48,34 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lod.html" />
-        <option value="$PROJECT_DIR$/normal1.html" />
         <option value="$PROJECT_DIR$/normal.html" />
         <option value="$PROJECT_DIR$/js/obj/airplane.js" />
         <option value="$PROJECT_DIR$/island.html" />
         <option value="$PROJECT_DIR$/delMove.html" />
         <option value="$PROJECT_DIR$/js/obj/terrain.js" />
         <option value="$PROJECT_DIR$/js/island.js" />
-        <option value="$PROJECT_DIR$/14.05.html" />
         <option value="$PROJECT_DIR$/js/scene.js" />
         <option value="$PROJECT_DIR$/js/airplane.js" />
-        <option value="$PROJECT_DIR$/16.05.html" />
         <option value="$PROJECT_DIR$/js/world.js" />
         <option value="$PROJECT_DIR$/js/camera.js" />
-        <option value="$PROJECT_DIR$/js/general.js" />
         <option value="$PROJECT_DIR$/js/terrain.js" />
+        <option value="$PROJECT_DIR$/16.05.html" />
+        <option value="$PROJECT_DIR$/16.05.new.html" />
+        <option value="$PROJECT_DIR$/js/config.js" />
+        <option value="$PROJECT_DIR$/14.05.html" />
+        <option value="$PROJECT_DIR$/js/general.js" />
       </list>
     </option>
   </component>
@@ -146,6 +110,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,70 +119,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airwars.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airwars.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airwars.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airwars.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airwars.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airwars.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GitHub.appref-ms" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer\domains\airwars.local\js" />
+      <recent name="E:\OpenServer\domains\airwars.local" />
       <recent name="E:\OpenServer\domains\airwars.local\textures\terrain" />
       <recent name="E:\OpenServer\domains\airwars.local\js\libs" />
       <recent name="\" />
-      <recent name="E:\OpenServer\domains\airwars.local" />
-      <recent name="E:\OpenServer\domains\airwars.local\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OpenServer\domains\airwars.local\js" />
@@ -225,14 +147,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -241,6 +155,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -289,7 +211,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.183172" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -300,6 +221,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -317,86 +239,41 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/jre/jre/bin/jotunheimen.bin">
+    <entry file="file://$PROJECT_DIR$/../beta.airwars.local/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5287">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../beta.airwars.local/js/libs/TerrainLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="415" selection-end="415" vertical-scroll-proportion="0.55025554" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
+        <state line="35" column="16" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../beta.airwars.local/js/island.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1292">
-          <folding />
-        </state>
+        <state line="38" column="37" selection-start="1192" selection-end="1192" vertical-scroll-proportion="-0.100511074" vertical-offset="705" max-vertical-offset="1292" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../beta.airwars.local/js/general.js">
+    <entry file="file://$PROJECT_DIR$/../beta.airwars.local/js/libs/TerrainLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="16" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="4" column="44" selection-start="108" selection-end="108" vertical-scroll-proportion="0.11584327" vertical-offset="0" max-vertical-offset="1258" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/obj/terrain.js">
+    <entry file="file://$PROJECT_DIR$/../beta.airwars.local/14.05.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="449" selection-end="449" vertical-scroll-proportion="0.5034843" vertical-offset="0" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="35" column="22" selection-start="1137" selection-end="1138" vertical-scroll-proportion="-5.230769" vertical-offset="459" max-vertical-offset="2363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="64" selection-start="1957" selection-end="1957" vertical-scroll-proportion="-9.807693" vertical-offset="731" max-vertical-offset="2363">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16.05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="568" selection-end="568" vertical-scroll-proportion="-9.153846" vertical-offset="17" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/airplane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/camera.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="765">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/textures/terrain/jotunheimen-texture.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="49" column="56" selection-start="2118" selection-end="2118" vertical-scroll-proportion="0.0" vertical-offset="752" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/world.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/terrain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="0.05923345" vertical-offset="0" max-vertical-offset="1190">
+        <state line="12" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
