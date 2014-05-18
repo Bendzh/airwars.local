@@ -218,3 +218,5 @@ pip-log.txt
 *.xml
 *.xml
 *.xml
+.idea/workspace.xml
+js/model/test.js
