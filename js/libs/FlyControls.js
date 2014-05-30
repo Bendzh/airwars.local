@@ -218,7 +218,7 @@ THREE.FlyControls = function ( object, domElement ) {
 
 		this.rotationVector.x = ( -this.moveState.pitchDown + this.moveState.pitchUp );
 		this.rotationVector.y = ( -this.moveState.yawRight  + this.moveState.yawLeft );
-		this.rotationVector.z = ( -this.moveState.rollRight + this.moveState.rollLeft );
+		//this.rotationVector.z = ( -this.moveState.rollRight + this.moveState.rollLeft );
 
 		//console.log( 'rotate:', [ this.rotationVector.x, this.rotationVector.y, this.rotationVector.z ] );
 
